@@ -1,1 +1,23 @@
 /* Add CSS Styling */
+
+.one,
+.three,
+.five {
+    background-color:rgb(255, 164, 164);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.three {
+    font-size: 24px;
+}
+
+#two {
+    color: blue;
+    font-size: 36px;
+}
+
+#four {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(145, 242, 145);
+}
