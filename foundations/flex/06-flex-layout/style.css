@@ -11,11 +11,65 @@ img {
   width: 600px;
 }
 
+/* ADDED */
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ededed;
+  margin-top: 265px;
+}
+
+.left-links {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  padding-left: 20px;
+}
+
+.right-links {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  padding-right: 20px;
+}
+
+/* END */
+
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px; /* Added */
 }
 
 input {
